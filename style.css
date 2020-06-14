@@ -197,7 +197,7 @@ body {
 }
 
 .description-section img {
-  background: url(photo-1454165804606-c3d57bc86b40.jpg), #C4C4C4;
+  background: url(photo-1454165804606-c3d57bc86b40.jpg),#f6f6f8;
   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
   overflow: hidden;
@@ -224,9 +224,6 @@ body {
   display: flex;
   margin: 0 35px 0 37px;
   
-}
-.description-img :last-child {
-  margin: 0px;
 }
 
 .description-img img {
@@ -258,6 +255,55 @@ body {
   padding-top: 10px;
 }
   
+.working-section {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.backgraund-block {
+  height: 490px;
+  width: 100%;
+  z-index: 0;
+  background-color: midnightblue;
+  
+  
+}
+ 
+.backgraund-block h1 {
+  width: 540px;
+  height: 88px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  color: #FFFFFF;
+  margin: 100px 0px 0px 0;
+  text-align: left;
+  justify-content: space-between;
+}
+ 
+   
+.backgraund-block button {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  margin: 0 0 0 0;
+
+  
+  
+  
+
+}
+
 
 .container {
   max-width: 1100px;
