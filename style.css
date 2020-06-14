@@ -208,10 +208,14 @@ body {
   
 }
 
-.description-wrapper {
+.description-item {
   border-bottom: 1px solid #A1A1A1;
   margin: 90px 0 0px 0;
   
+}
+
+.description-img {
+  display: flex;
 }
 .description-img img {
   width: 30px;
@@ -226,18 +230,20 @@ body {
   max-width: 222px;
 }
 
-.description-text-wrapper h4 {
+.description-text-wrapper h1 {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 22px;
   color: #000000;
-  margin: 0 0 12px 0;
+  margin: 26px 0 8px 0;
 }
 
 .description-text-wrapper span {
   font-size: 14px;
   line-height: 22px;
   color: #999999;
+  margin: 25px 0 0 -50px;
+  padding-top: 10px;
 }
   
 
