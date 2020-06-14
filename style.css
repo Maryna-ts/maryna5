@@ -214,9 +214,21 @@ body {
   
 }
 
+.descr-all {
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .description-img {
   display: flex;
+  margin: 0 35px 0 37px;
+  
 }
+.description-img :last-child {
+  margin: 0px;
+}
+
 .description-img img {
   width: 30px;
   height: 26px;
