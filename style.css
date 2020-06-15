@@ -255,10 +255,6 @@ body {
   padding-top: 10px;
 }
   
-
-  
-
-
 .backgraund-block {
   height: 490px;
   width: 100%;
@@ -276,7 +272,7 @@ body {
   font-size: 36px;
   line-height: 53px;
   color: #FFFFFF;
-  margin: 120px 0px 0px 344px;
+  margin: 120px 0px 0px 140px;
   text-align: left;
   
 }
@@ -295,7 +291,7 @@ body {
   cursor: pointer;
   width: 200px;
   height: 45px;
-  margin: 100px 295px 0 ;
+  margin: 135px 345px 0 ;
 }
 .working-img  {
 display: flex;
@@ -314,7 +310,45 @@ margin: -250px 120px  0 120px;
   height: 300px;
   margin: 0px 0 0 20px;
 }
-
+.working-text-wrapper h3 {
+  width: 281px;
+  height: 17px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4985FF;
+  margin: 21px 0px 0px 20px;
+  text-align: left;
+}
+.working-text-wrapper h1 {
+  width: 281px;
+  height: 17px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin: -17px 0px 12px 50px;
+  text-align: left;
+}
+.working-text-wrapper p {
+  height: 117px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  margin: 10px 0 0 0px;
+  padding: 0px 0 0 20px;
+  text-align: left;
+}
+.working-text-wrapper a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #4985FF;
+  box-sizing: border-box;
+  margin: 10px 0 0 20px;
+  text-align: left;
+}
 
 
 .container {
