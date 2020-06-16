@@ -423,6 +423,12 @@ margin: -250px 120px 60px 120px;
 
 .video-wrapper {
   width: 1350px;
+  height: 1000px;
+  background-color: #E5E5E5;
+}
+
+.video-text-video {
+  width: 1350px;
   height: 570px;
   background: white url('./images/Rectangle12.png') no-repeat;
   background-position: center 0;
@@ -450,6 +456,11 @@ margin: -250px 120px 60px 120px;
 .video-vidos {
   margin: 90px 0 0 0;
 }
+
+ .video-text-video hr {
+   width: 800px;
+   margin: 40px 0 0 140px;
+ }
 
 
 
