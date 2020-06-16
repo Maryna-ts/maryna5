@@ -291,7 +291,7 @@ body {
   cursor: pointer;
   width: 200px;
   height: 45px;
-  margin: 135px 345px 0 ;
+  margin: 135px 345px 0;
 }
 .working-img  {
 display: flex;
@@ -364,7 +364,7 @@ margin: -250px 120px 60px 120px;
 }
 
 .projekt-wrapper {
-  padding: 50px 0 0 0;
+  padding: 70px 0 0 0;
   box-sizing: border-box;
 }
 .projekt-wrapper h1 {
@@ -373,7 +373,7 @@ margin: -250px 120px 60px 120px;
   line-height: 53px;
   text-align: center;
   color: #000000;
-  margin: 0 0px 25px 0;
+  margin: 0 0px 35px 0;
 }
 
 .projekt-wrapper p {
@@ -381,7 +381,7 @@ margin: -250px 120px 60px 120px;
   line-height: 25px;
   text-align: center;
   color: #999999;
-  margin: 0 0px -6px 0;
+  margin: 0 0px 10px 0;
 }
 
 .projekt-img {
@@ -390,6 +390,7 @@ margin: -250px 120px 60px 120px;
   align-items: center;
   margin: 0 30px 0 0;
   box-sizing: border-box;
+  justify-content: center;
 }
 
 .projekt-images {
@@ -402,10 +403,54 @@ margin: -250px 120px 60px 120px;
   box-sizing: border-box;
   background: url(photo-1508921108053-9f757ead871c.jpg), #C4C4C4;
   border-radius: 10px;
-  
- 
-
 }
+
+.projekt-wrapper button {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  margin: 80px 0 0 425px;
+}
+
+.video-wrapper {
+  width: 1350px;
+  height: 570px;
+  background: white url('./images/Rectangle12.png') no-repeat;
+  background-position: center 0;
+  margin: -30px 0 0 0;
+}
+
+.video-text-video h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 80px 0 0 0;
+}
+
+.video-text-video p {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+.video-vidos {
+  margin: 90px 0 0 0;
+}
+
 
 
 .container {
