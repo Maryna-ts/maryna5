@@ -47,6 +47,7 @@ body {
 .header-content {
   padding: 220px 0 314px 0;
   text-align: center;
+  margin: 0 auto;
 }
 
 .header-content h4 {
@@ -55,7 +56,8 @@ body {
   line-height: 20px;
   text-align: center;
   color: #FFFFFF;
-  margin: 0 0 20px 0;
+  margin: 0 auto;
+  padding-bottom: 20px ;
 }
 
 .header-content h1 {
@@ -64,7 +66,9 @@ body {
   line-height: 64px;
   text-align: center;
   color: #FFFFFF;
-  margin: 0 0 50px 0;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 829px;
 }
 
 .header-content button {
@@ -403,6 +407,7 @@ margin: -250px 120px 60px 120px;
   box-sizing: border-box;
   background: url(photo-1508921108053-9f757ead871c.jpg), #C4C4C4;
   border-radius: 10px;
+  max-width: 1920px;
 }
 
 .projekt-wrapper button {
@@ -422,9 +427,9 @@ margin: -250px 120px 60px 120px;
 }
 
 .video-wrapper {
-  width: 1350px;
+  max-width: 1350px;
   height: 1000px;
-  background-color: #E5E5E5;
+  background-color: white;
 }
 
 .video-text-video {
@@ -462,6 +467,10 @@ margin: -250px 120px 60px 120px;
    margin: 40px 0 0 140px;
  }
 
+ .email-proekt {
+  margin: 0 auto;
+ } 
+
  .email-proekt h1 {
   font-weight: 600;
   font-size: 18px;
@@ -471,10 +480,17 @@ margin: -250px 120px 60px 120px;
  }
 
 .email-proekt p {
-   font-size: 16px;
+  font-size: 16px;
   line-height: 25px;
   text-align: center;
   color: #999999;
+}
+
+.text1 {
+  margin: 0 auto;
+  max-width: 490px;
+  padding-top: 30px;
+  padding-bottom: 35px;
 }
 
  .email-proekt input {
@@ -488,7 +504,7 @@ margin: -250px 120px 60px 120px;
   color: #999999;
   outline: none;
   border: none;
-  margin: 45px 300px 0;
+  margin: 0 auto;
   padding-left: 20px;
   position: relative;
   background: #FFFFFF;
@@ -511,17 +527,79 @@ margin: -250px 120px 60px 120px;
   cursor: pointer;
   width: 200px;
   height: 45px;
-  margin: 45px -309px 0;
+  margin: 0 auto;
   position: absolute;
  }
 
- .email-proekt span {
+ .spam {
+   margin: 0 auto;
+   padding-top: 35px;
+   max-width: 386px;
+ }
+
+.spam span {
   font-size: 13px;
   line-height: 21px;
   text-align: center;
   color: #999999;
-  margin: 35px  0 0;
  }
+
+ .kontakt {
+  display: flex;
+  justify-content: space-between;
+  flex-direction:row;
+  height: 305px;
+  background-color: #F6F6F8;
+ }
+ 
+ .info {
+   display: flex;
+   border-bottom: 1px solid #aaa7a7;
+   margin-bottom: 30px;
+ }
+
+ .inform {
+  display: flex;
+  flex-direction: column;
+  padding-right: 43px;
+  padding-bottom: 70px;
+ }
+
+ .main-projekt {
+   padding-right: 43px;
+ }
+ 
+ .kontakt-information {
+   padding-bottom: 15px;
+ }
+
+ .sait h3 {
+   padding-bottom: 15px;
+ }
+
+ .main h3 {
+   padding-bottom: 15px;
+ }
+
+.test {
+  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+}
+
+.kontakt-sait {
+  padding-right: 43px;
+}
+ .pravo {
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  color: #999999;
+  background-color: #F6F6F8;
+  padding-bottom: 30px;
+ }
+
 
 .container {
   max-width: 1100px;
